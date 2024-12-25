@@ -91,6 +91,7 @@ body {
   #addBtn:hover
   {
     background-color: rgb(11, 11, 108);
+    cursor: pointer;
   }
   .actions
   {
@@ -107,6 +108,9 @@ body {
     margin-left: 10px;
     color: rgb(255, 252, 252);
 
+ }
+ .clrComp:hover{
+    background-color: rgb(16, 3, 112);
  }
 
  .editSection
@@ -151,7 +155,12 @@ body {
     width: 40%;
     color: rgb(255, 252, 252);
     border-radius: 7PX;
+    cursor: pointer;
     
+ }
+ .edit:hover, .dn:hover, .rmv:hover
+ {
+    background-color: rgb(16, 3, 112);
  }
   .save{ 
     background: none;
@@ -161,6 +170,10 @@ body {
     margin-right: 10px;
     width: max-content;
     border-radius: 3PX;
+    cursor: pointer;
+ }
+ .save:hover{
+    background-color: rgb(76, 4, 140);
  }
 
  h1,h3{
