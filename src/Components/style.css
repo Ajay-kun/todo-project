@@ -1,0 +1,173 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+body {
+    background: #080837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.todoSpace{
+    text-align: center;
+    
+   
+ 
+}
+.todoWrapper
+{
+    background-color: rgb(10, 7, 47);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    padding: 2rem;
+     margin-top: 5rem;
+     border-radius: 20px;
+     border: 1px solid blue;
+    
+}
+
+.TodoList
+{
+   width: 100%;
+}
+.Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f1951;
+    color: #fff;
+    padding: 0.05rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+    
+  }
+  p{
+    margin-right: 40px;
+  }
+.TodoComp
+{
+    display: flex;
+     justify-content: space-between; */
+    align-items: center; 
+    background: #0a1263;
+    color: #fff;
+    padding: 0.05rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+    margin-right: 40px;
+    
+}
+  #inputF
+  {
+    outline: none;
+    background:none;
+    border: 1px solid blue;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    color: rgb(255, 252, 252);
+
+  }
+  #addBtn{
+    background-color: blue;
+    border: 1px solid blue;
+    outline: none;
+    height: 32px;
+    width: 55px;
+    border-radius:0px 5px 5px 0px;
+    margin-bottom: 1px;
+    color: rgb(255, 252, 252);
+    transition: all 0.3s ease;
+  }
+  #addBtn:hover
+  {
+    background-color: rgb(11, 11, 108);
+  }
+  .actions
+  {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+ .clrComp{
+    background: none;
+    border: 1px solid blue;
+    padding: 5px;
+    width: 20%;
+    margin-left: 10px;
+    color: rgb(255, 252, 252);
+
+ }
+
+ .editSection
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.05rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+    height: 30px;
+    
+ }
+  .editIn{
+    background: none;
+    display: flex;
+    border: 1px solid rgb(97, 13, 232);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: rgb(255, 252, 252);
+
+   
+
+ }
+
+ .save
+ {
+
+    margin-left: 200%;
+ }
+
+ .edit, .dn, .rmv
+ {
+    background: none;
+    border: 1px solid rgb(7, 57, 255);
+    padding: 10px;
+    width: 40%;
+    color: rgb(255, 252, 252);
+    border-radius: 7PX;
+    
+ }
+  .save{ 
+    background: none;
+    border: 1px solid rgb(97, 13, 232);
+    color: rgb(255, 252, 252);
+    padding: 0.4rem;
+    margin-right: 10px;
+    width: max-content;
+    border-radius: 3PX;
+ }
+
+ h1,h3{
+    color: rgb(255, 252, 252);
+ }
+
+ .ic
+ {
+    width: 15px;
+ }
